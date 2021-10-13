@@ -13,7 +13,6 @@ class Solution(object):
         for i in range(tall+1):
             s = bisect_left(nums, i)
             if m-s == i:
-                ans = i
                 return i
         return -1
             
